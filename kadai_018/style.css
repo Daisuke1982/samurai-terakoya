@@ -1,0 +1,100 @@
+#top {
+  width: 800px;
+  background-color: #dcc9f4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  /* 【奮闘】中にあるp要素が中央揃え start */
+  /* padding-right: auto; */
+  /* padding-left: auto; */
+  text-align:  center; 
+  /* 【奮闘】中にあるp要素が中央揃え end */
+}
+
+.top-child {
+  width: 20%;
+  background-color: #ffd9df;
+  display: inline-block;
+}
+
+#middle{
+  width: 800px;
+  height: 800px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffd9df; 
+  position: relative;
+}
+
+#middle-child01, #middle-child02, #middle-child03{
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+}
+
+#middle-child01{
+  /* 絶対配置　*/
+  position:absolute;
+  /* 絶対配置　*/
+  top: 100px;
+  left: 100px;
+}
+
+#middle-child02{
+  /* 絶対配置　*/
+  position:absolute;
+  /* 絶対配置　*/
+
+  top: 300px;
+  left: 300px;  
+}
+
+#middle-child03{
+  /* 絶対配置　*/
+  position:absolute;
+  /* 絶対配置　*/
+  top: 500px;
+  left: 500px;  
+}
+
+#bottom {
+  width: 800px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #87ceeb;
+  text-align:  center; 
+  position: relative;
+}
+
+#bottom-child01, #bottom-child02, #bottom-child03{
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+}
+
+#bottom-child01{
+  /* 絶対配置　*/
+  position:absolute;
+  /* 絶対配置　*/
+}
+
+#bottom-child02{
+  /* 絶対配置　*/
+  position:absolute;
+  /* 絶対配置　*/
+
+  top: 100px;
+  left: 200px;  
+}
+
+#bottom-child03{
+  /* 絶対配置　*/
+  position:absolute;
+  /* 絶対配置　*/
+  top: 200px;
+  left: 400px;  
+}
