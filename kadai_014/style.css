@@ -1,5 +1,5 @@
   /* コイツがルート要素 */
-.conainer {
+.container {
   /* 水平方向の中央揃え */
   text-align: center;  
   /* 水平方向の中央揃え */
@@ -13,8 +13,8 @@ body {
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 2rem;
-  letter-spacing: 2.4rem;
+  font-size: 2em;
+  letter-spacing: 1.2em;
   text-shadow: 1px 2px 2px red;
   border-bottom: solid 3px rgb(115,115,114);
   
