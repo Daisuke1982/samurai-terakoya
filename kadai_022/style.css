@@ -40,9 +40,11 @@ main{
   
 h2{
   font-size: 25px;
-  /* text-decoration: underline dotted rgb(236, 122, 122); */
-  border-bottom: rgb(236, 122, 122);+
+  /* text-decoration: underline overline dotted rgb(236, 122, 122); */
+  border-bottom: rgb(236, 122, 122);
   border-bottom-style: dotted;
+  border-bottom-width: 3px;
+
   
 }
 
