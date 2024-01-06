@@ -15,17 +15,18 @@ header{
 header > h1{
   color: rgb(255, 255, 255);
 }
-
+/* --------------------------------------------- */
+/* main */
 main{
   margin: 10px 10px 10px 10px;
 }
 
 #parent{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.contents{
+.contents {
   border: 3px;
   border-style: solid;
   border-color:rgb(238, 204, 204) ;
@@ -33,13 +34,16 @@ main{
   flex-basis: 25%;
   padding: 10px 15px;
   margin: 20px 0px;
-
-  align-items: center;
+  /* align-items: center; */
+  text-align: center;
 }
-
+  
 h2{
   font-size: 25px;
-  text-decoration: underline dotted rgb(236, 122, 122);
+  /* text-decoration: underline dotted rgb(236, 122, 122); */
+  border-bottom: rgb(236, 122, 122);+
+  border-bottom-style: dotted;
+  
 }
 
 h2::before{
