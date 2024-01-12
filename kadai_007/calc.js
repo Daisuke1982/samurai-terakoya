@@ -1,5 +1,5 @@
 let d = new Date();
-let num = Math.ceil(Math.random() * 5) * d.getSeconds();
+let num = Math.ceil(Math.random() * d.getSeconds());
 
 console.log(num);
 
