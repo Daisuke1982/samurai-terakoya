@@ -1,5 +1,5 @@
 const squareValue = (x) => {
-  console.log( x * x );
+  console.log( x ** 2 );
 }
 
-squareValue(100);
+squareValue(1000);
